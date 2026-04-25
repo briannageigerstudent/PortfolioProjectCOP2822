@@ -2,7 +2,7 @@ body {
     font-family: Arial;
     margin: 0;
     text-align: center;
-    background-color: #c7c7c7;
+    background-color: white;
 }
 
 
@@ -11,6 +11,7 @@ header {
     background-color: #222;
     color: white;
     padding: 15px;
+    margin: 0;
 }
 #display img {
     width: 300px;
@@ -50,7 +51,7 @@ nav a:hover {
     text-decoration: underline;
 
 }
-nav a :visited {
+nav a:visited {
     color: white;
 }
 ul{
@@ -63,22 +64,22 @@ ul{
 }
 .contact-info {
     background-color: #f5f5f5;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 20px;
+    margin: 0 auto 60px auto;
     list-style-type: none;
-    width: 100%;
+    width: 800px;
 }
 .contact-info p {
     margin: 5px 0;
 }
 
 .about-me {
-  max-width: 750px;
-  margin: 80px auto;
+  width: 800px;
+  margin: 0 auto 60px auto;
   padding: 40px;
   background-color: #f5f5f5;
   border-radius: 12px;
@@ -92,11 +93,37 @@ ul{
 }
 .projects {
     background-color: #f5f5f5;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    width: 100%;
+    margin: 0 auto 60px auto;
+    width: 800px;
     list-style-type: none;
+}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .hero-text {
+    max-width: 100%;
+  }
+  .hero-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about-me,
+  .projects,
+  .contact-info {
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+  }
+
 }
