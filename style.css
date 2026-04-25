@@ -62,7 +62,7 @@ ul{
     gap: 20px;
 }
 .contact-info {
-    background-color: #b5d1c2;
+    background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -75,17 +75,23 @@ ul{
 .contact-info p {
     margin: 5px 0;
 }
+
 .about-me {
-    background-color: #b5d1c2;
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    margin-top: 20px;
-    width: 100%;
-    list-style-type: none;
+  max-width: 750px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 16px;
 }
 .projects {
-    background-color: #b5d1c2;
+    background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
     display: flex;
