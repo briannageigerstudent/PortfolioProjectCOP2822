@@ -8,7 +8,7 @@ body {
 
 header {
     text-align:center;
-    background-color: #222;
+    background-color: lightgray;
     color: rgb(237, 251, 255);
     padding: 15px;
 }
@@ -31,7 +31,20 @@ header {
 }
 
 .hero-image img {
-  width: 250px;
+  width: 450px;
   height: auto;
   border-radius: 10px; 
+}
+nav{
+    background-color: #222;
+    color: rgb(237, 251, 255);
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
