@@ -135,11 +135,18 @@ ul{
     gap: 10px;
   }
   .about-me,
-  .projects,
   .contact-info {
     width: auto;
     margin: 20px;
     padding: 20px;
+  }
+  .projects {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .project-card {
+    width: auto;
   }
 
 }
