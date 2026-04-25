@@ -97,15 +97,25 @@ ul{
   
 }
 .projects {
-    background-color: #fafafa;
-    padding: 40px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 60px auto;
-    width: 800px;
-    list-style-type: none;
-    border-left: 4px solid #b5d1c2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto 60px auto;
+}
+
+.project-card {
+  background-color: #fafafa;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  border-left: 4px solid #b5d1c2;
+  text-align: left;
+}
+
+.project-card h3 {
+  margin-top: 0;
 }
 @media (max-width: 768px) {
   .hero {
